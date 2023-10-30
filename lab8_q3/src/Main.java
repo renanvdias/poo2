@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Veiculo carro = new Carro("Prata", "Fiat", "Palio");
         Veiculo onibus = new Onibus("Azul", 80, 2018);
-        Veiculo bicicleta = new Bicicleta("Verde");
+        Veiculo bicicleta = new Bicicleta("Branca");
 
         VeiculoPrint printVisitor = new VeiculoPrint();
         VeiculoMessage messageVisitor = new VeiculoMessage();
