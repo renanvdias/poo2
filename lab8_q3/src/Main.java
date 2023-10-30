@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Veiculo carro = new Carro("Vermelho", "Toyota", "Camry");
-        Veiculo onibus = new Onibus("Azul", 50, 2020);
+        Veiculo carro = new Carro("Prata", "Fiat", "Palio");
+        Veiculo onibus = new Onibus("Azul", 80, 2018);
         Veiculo bicicleta = new Bicicleta("Verde");
 
         VeiculoPrint printVisitor = new VeiculoPrint();
